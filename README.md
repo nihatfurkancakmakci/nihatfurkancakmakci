@@ -1,16 +1,25 @@
 
-<h1 align="center">Hi 👋, I'm Nihat Furkan Çakmakcı</h1>
-<h3 align="center">Ben ISUBU Teknoloji Fakültesi Bilgisayar Mühendisliği 1. Sınıf öğrencisiyim. Güncel teknoloji ve programlama dillerini takip etmek ve projeler oluşturma için bu sayfayı oluşturdum.</h3>
+Hi, I'm Nihat Furkan Çakmakcı 👋
+I'm a 3rd-year Computer Engineering student at Isparta University of Applied Sciences, specializing in Artificial Intelligence and Software Development.
+I focus on building efficient, scalable solutions and leveraging AI to automate and optimize complex workflows. With a strong foundation in mathematics and logic, I approach problems systematically and deliver results that work.
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/frknio" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="frknio" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/ni̇hat furkan çakmakci" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ni̇hat furkan çakmakci" height="30" width="40" /></a>
-</p>
+💻 Technical Expertise
+Programming Languages
+Python (Advanced) · C++ · C# · Java · HTML · CSS
+Technologies & Frameworks
+React Native · AI/ML Tools · Git
+Data & Analysis
+SPSS · MATLAB · R · Excel
+Areas of Focus
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=furkanlecter&show_icons=true&locale=en&layout=compact" alt="furkanlecter" /></p>
+AI Development & Agent-Based Automation
+Full-Stack Application Development
+Algorithm Design & Optimization
+Data Analysis & Visualization
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=furkanlecter&show_icons=true&locale=en" alt="furkanlecter" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=furkanlecter&" alt="furkanlecter" /></p>
-
+ What Drives Me
+I'm passionate about using AI to solve real-world problems and creating software that makes a tangible impact. Whether it's building mobile apps, designing automation pipelines, or analyzing data, I focus on clean code, efficient systems, and continuous learning.
+Currently expanding my knowledge in advanced Python libraries, cloud technologies, and production-level AI implementations.
+📫 Connect With Me
+📧 cakmakcinihatfurkan@gmail.com
+💼 linkedin.com/in/nihatfurkancakmakci 
