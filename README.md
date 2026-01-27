@@ -22,4 +22,4 @@ I'm passionate about using AI to solve real-world problems and creating software
 Currently expanding my knowledge in advanced Python libraries, cloud technologies, and production-level AI implementations.
 📫 Connect With Me
 📧 cakmakcinihatfurkan@gmail.com
-💼 linkedin.com/in/nihatfurkancakmakci 
+💼 [LinkedIn](https://linkedin.com/in/nihatfurkancakmakci)
