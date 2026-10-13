@@ -1,4 +1,4 @@
-<img src="assets/header.svg" alt="Nihat Furkan Çakmakcı, AI Engineer" width="100%"/>
+<img src="assets/banner.svg" alt="Nihat Furkan Çakmakcı, AI Engineer" width="100%"/>
 
 ## About
 
@@ -8,10 +8,10 @@ The model never touches the database directly. It can only call a fixed set of t
 
 ## Projects
 
-**Hotel assistant** (client project, private)
+**Hotel assistant** (client project, private)<br>
 Written and voice assistant for hotel managers. I built the voice side, the operations setup and the sign-in system, and I helped choose the AI provider after comparing cost and quality. It started as a prototype and now runs live.
 
-**Crypto forecasting system** (personal project)
+**Crypto forecasting system** (personal project)<br>
 Combines three kinds of models, including one that reads news sentiment, to forecast prices. A local language model explains the market in plain words, and a web dashboard shows everything.
 
 ## Tools
