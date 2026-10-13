@@ -1,10 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="60" viewBox="0 0 1200 60" role="img" aria-label="footer">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0f172a"/>
-      <stop offset="0.5" stop-color="#1e3a8a"/>
-      <stop offset="1" stop-color="#0891b2"/>
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.5" stop-color="#312e81"/>
+      <stop offset="1" stop-color="#0e7490"/>
     </linearGradient>
+    <clipPath id="c"><rect width="1200" height="60" rx="14"/></clipPath>
   </defs>
-  <rect width="1200" height="60" rx="14" fill="url(#bg)"/>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="60" fill="url(#bg)"/>
+    <g fill="#67e8f9">
+      <circle cx="0" cy="30" r="4"><animate attributeName="cx" values="-10;1210" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" repeatCount="indefinite"/></circle>
+      <circle cx="0" cy="18" r="3" fill="#f0abfc"><animate attributeName="cx" values="-10;1210" dur="8s" begin="-3s" repeatCount="indefinite"/></circle>
+      <circle cx="0" cy="42" r="3" fill="#fde68a"><animate attributeName="cx" values="-10;1210" dur="7s" begin="-5s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
 </svg>

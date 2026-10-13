@@ -1,26 +1,131 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="Nihat Furkan Çakmakcı - AI Engineer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Nihat Furkan Çakmakcı - AI Engineer">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0f172a"/>
-      <stop offset="0.55" stop-color="#1e3a8a"/>
-      <stop offset="1" stop-color="#0891b2"/>
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.5" stop-color="#312e81"/>
+      <stop offset="1" stop-color="#0e7490"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.85" cy="0.2" r="0.6">
-      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
-    </radialGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#a5f3fc"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="38"/></filter>
+    <clipPath id="clip"><rect width="1200" height="300" rx="18"/></clipPath>
   </defs>
-  <rect width="1200" height="240" rx="14" fill="url(#bg)"/>
-  <rect width="1200" height="240" rx="14" fill="url(#glow)"/>
-  <g stroke="#67e8f9" stroke-opacity="0.35" stroke-width="1.5" fill="none">
-    <path d="M820 40 L930 95 L1040 55 L1130 120 L1040 190 L930 150 L820 200 L930 95"/>
-    <path d="M930 150 L1040 190 M1040 55 L1040 190"/>
+
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+
+    <!-- soft moving color blobs -->
+    <circle cx="300" cy="80" r="110" fill="#a855f7" opacity="0.35" filter="url(#blur)">
+      <animate attributeName="cx" values="300;520;300" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1000" cy="240" r="130" fill="#22d3ee" opacity="0.35" filter="url(#blur)">
+      <animate attributeName="cx" values="1000;820;1000" dur="11s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- dotted grid -->
+    <g fill="#ffffff" opacity="0.07">
+      <circle cx="20" cy="20" r="1.5"/><circle cx="60" cy="20" r="1.5"/><circle cx="100" cy="20" r="1.5"/><circle cx="140" cy="20" r="1.5"/><circle cx="180" cy="20" r="1.5"/><circle cx="220" cy="20" r="1.5"/><circle cx="260" cy="20" r="1.5"/><circle cx="300" cy="20" r="1.5"/><circle cx="340" cy="20" r="1.5"/><circle cx="380" cy="20" r="1.5"/><circle cx="420" cy="20" r="1.5"/><circle cx="460" cy="20" r="1.5"/><circle cx="500" cy="20" r="1.5"/><circle cx="540" cy="20" r="1.5"/><circle cx="580" cy="20" r="1.5"/><circle cx="620" cy="20" r="1.5"/>
+      <circle cx="20" cy="280" r="1.5"/><circle cx="60" cy="280" r="1.5"/><circle cx="100" cy="280" r="1.5"/><circle cx="140" cy="280" r="1.5"/><circle cx="180" cy="280" r="1.5"/><circle cx="220" cy="280" r="1.5"/><circle cx="260" cy="280" r="1.5"/><circle cx="300" cy="280" r="1.5"/><circle cx="340" cy="280" r="1.5"/><circle cx="380" cy="280" r="1.5"/><circle cx="420" cy="280" r="1.5"/><circle cx="460" cy="280" r="1.5"/>
+    </g>
+
+    <!-- neural constellation with flowing data -->
+    <g stroke="#67e8f9" stroke-width="1.6" fill="none" opacity="0.45" stroke-dasharray="4 10">
+      <animate attributeName="stroke-dashoffset" values="0;-28" dur="1.4s" repeatCount="indefinite"/>
+      <path d="M700 40 L780 120 L720 200 L800 270"/>
+      <path d="M780 120 L880 210 L800 270"/>
+      <path d="M880 40 L780 120"/>
+      <path d="M1110 40 L1140 150 L1100 255 L1180 270"/>
+      <path d="M1140 150 L1180 270"/>
+      <path d="M1110 40 L1180 30"/>
+    </g>
+    <g fill="#a5f3fc">
+      <circle cx="700" cy="40" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" repeatCount="indefinite"/></circle>
+      <circle cx="780" cy="120" r="5"><animate attributeName="opacity" values="1;0.3;1" dur="2.6s" repeatCount="indefinite"/></circle>
+      <circle cx="720" cy="200" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.9s" repeatCount="indefinite"/></circle>
+      <circle cx="800" cy="270" r="5"><animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="880" cy="210" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.8s" repeatCount="indefinite"/></circle>
+      <circle cx="880" cy="40" r="4"><animate attributeName="opacity" values="1;0.3;1" dur="2.1s" repeatCount="indefinite"/></circle>
+      <circle cx="1110" cy="40" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/></circle>
+      <circle cx="1140" cy="150" r="5"><animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/></circle>
+      <circle cx="1100" cy="255" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.3s" repeatCount="indefinite"/></circle>
+      <circle cx="1180" cy="270" r="4"/><circle cx="1180" cy="30" r="4"/>
+    </g>
+
+    <!-- twinkling sparkles -->
+    <g fill="#fde68a">
+      <path d="M0 -9 L2.4 -2.4 L9 0 L2.4 2.4 L0 9 L-2.4 2.4 L-9 0 L-2.4 -2.4 Z" transform="translate(655 60)"><animate attributeName="opacity" values="0.15;1;0.15" dur="2s" repeatCount="indefinite"/></path>
+      <path d="M0 -7 L1.8 -1.8 L7 0 L1.8 1.8 L0 7 L-1.8 1.8 L-7 0 L-1.8 -1.8 Z" transform="translate(930 262)"><animate attributeName="opacity" values="1;0.15;1" dur="2.6s" repeatCount="indefinite"/></path>
+      <path d="M0 -6 L1.5 -1.5 L6 0 L1.5 1.5 L0 6 L-1.5 1.5 L-6 0 L-1.5 -1.5 Z" transform="translate(1175 100)"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.7s" repeatCount="indefinite"/></path>
+      <path d="M0 -6 L1.5 -1.5 L6 0 L1.5 1.5 L0 6 L-1.5 1.5 L-6 0 L-1.5 -1.5 Z" transform="translate(600 250)"><animate attributeName="opacity" values="1;0.15;1" dur="2.3s" repeatCount="indefinite"/></path>
+    </g>
+
+    <!-- text -->
+    <text x="60" y="120" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="56" font-weight="800" fill="url(#txt)">Nihat Furkan Çakmakcı</text>
+    <text x="62" y="165" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#e0f2fe">AI Engineer  ·  LLM &amp; Agentic AI</text>
+    <text x="62" y="203" font-family="Consolas, Menlo, monospace" font-size="18" fill="#67e8f9">I teach machines to talk to real data</text>
+
+    <!-- voice waveform -->
+    <g fill="#f0abfc">
+      <rect x="62" y="257" width="7" height="10" rx="3.5"><animate attributeName="height" values="10;38;14;30;10" dur="1.1s" repeatCount="indefinite"/><animate attributeName="y" values="257;243;255;247;257" dur="1.1s" repeatCount="indefinite"/></rect>
+      <rect x="76" y="257" width="7" height="10" rx="3.5"><animate attributeName="height" values="22;10;40;12;22" dur="1.3s" repeatCount="indefinite"/><animate attributeName="y" values="251;257;242;256;251" dur="1.3s" repeatCount="indefinite"/></rect>
+      <rect x="90" y="257" width="7" height="10" rx="3.5"><animate attributeName="height" values="14;34;10;26;14" dur="0.9s" repeatCount="indefinite"/><animate attributeName="y" values="255;245;257;249;255" dur="0.9s" repeatCount="indefinite"/></rect>
+      <rect x="104" y="257" width="7" height="10" rx="3.5"><animate attributeName="height" values="36;12;28;10;36" dur="1.2s" repeatCount="indefinite"/><animate attributeName="y" values="244;256;248;257;244" dur="1.2s" repeatCount="indefinite"/></rect>
+      <rect x="118" y="257" width="7" height="10" rx="3.5"><animate attributeName="height" values="12;30;18;40;12" dur="1s" repeatCount="indefinite"/><animate attributeName="y" values="256;247;254;242;256" dur="1s" repeatCount="indefinite"/></rect>
+      <rect x="132" y="257" width="7" height="10" rx="3.5"><animate attributeName="height" values="28;10;34;14;28" dur="1.4s" repeatCount="indefinite"/><animate attributeName="y" values="248;257;245;255;248" dur="1.4s" repeatCount="indefinite"/></rect>
+      <rect x="146" y="257" width="7" height="10" rx="3.5"><animate attributeName="height" values="10;26;12;36;10" dur="1.15s" repeatCount="indefinite"/><animate attributeName="y" values="257;249;256;244;257" dur="1.15s" repeatCount="indefinite"/></rect>
+      <rect x="160" y="257" width="7" height="10" rx="3.5"><animate attributeName="height" values="30;14;38;10;30" dur="1.25s" repeatCount="indefinite"/><animate attributeName="y" values="247;255;243;257;247" dur="1.25s" repeatCount="indefinite"/></rect>
+      <rect x="174" y="257" width="7" height="10" rx="3.5"><animate attributeName="height" values="12;32;10;24;12" dur="1.05s" repeatCount="indefinite"/><animate attributeName="y" values="256;246;257;250;256" dur="1.05s" repeatCount="indefinite"/></rect>
+    </g>
+    <text x="196" y="267" font-family="Consolas, Menlo, monospace" font-size="15" fill="#f5d0fe">voice ready</text>
+
+    <!-- user chat bubble with typing dots -->
+    <g>
+      <rect x="730" y="62" width="130" height="44" rx="20" fill="#ffffff" opacity="0.96"/>
+      <path d="M758 104 L750 122 L778 104 Z" fill="#ffffff" opacity="0.96"/>
+      <circle cx="768" cy="84" r="5.5" fill="#6366f1"><animate attributeName="cy" values="84;77;84;84" dur="1.2s" repeatCount="indefinite"/></circle>
+      <circle cx="795" cy="84" r="5.5" fill="#6366f1"><animate attributeName="cy" values="84;84;77;84" dur="1.2s" repeatCount="indefinite"/></circle>
+      <circle cx="822" cy="84" r="5.5" fill="#6366f1"><animate attributeName="cy" values="84;84;84;77" dur="1.2s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- robot -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="3.2s" repeatCount="indefinite"/>
+      <line x1="1010" y1="100" x2="1010" y2="80" stroke="#c4b5fd" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="1010" cy="73" r="8" fill="#fde047">
+        <animate attributeName="r" values="7;10;7" dur="1.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1010" cy="73" r="16" fill="#fde047" opacity="0.25">
+        <animate attributeName="opacity" values="0.1;0.4;0.1" dur="1.4s" repeatCount="indefinite"/>
+      </circle>
+      <rect x="940" y="136" width="12" height="32" rx="6" fill="#a78bfa"/>
+      <rect x="1068" y="136" width="12" height="32" rx="6" fill="#a78bfa"/>
+      <rect x="950" y="100" width="120" height="104" rx="30" fill="#1e1b4b" stroke="#67e8f9" stroke-width="3"/>
+      <rect x="962" y="114" width="96" height="70" rx="20" fill="#0b1020"/>
+      <ellipse cx="988" cy="142" rx="9" ry="11" fill="#22d3ee">
+        <animate attributeName="ry" values="11;11;1;11" keyTimes="0;0.9;0.95;1" dur="4s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="1032" cy="142" rx="9" ry="11" fill="#22d3ee">
+        <animate attributeName="ry" values="11;11;1;11" keyTimes="0;0.9;0.95;1" dur="4s" repeatCount="indefinite"/>
+      </ellipse>
+      <circle cx="972" cy="162" r="6" fill="#f472b6" opacity="0.6"/>
+      <circle cx="1048" cy="162" r="6" fill="#f472b6" opacity="0.6"/>
+      <path d="M994 164 Q1010 178 1026 164" stroke="#22d3ee" stroke-width="4" stroke-linecap="round" fill="none"/>
+      <rect x="974" y="210" width="72" height="42" rx="14" fill="#312e81" stroke="#67e8f9" stroke-width="3"/>
+      <circle cx="1010" cy="231" r="7" fill="#f0abfc">
+        <animate attributeName="fill" values="#f0abfc;#67e8f9;#fde047;#f0abfc" dur="3s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- robot reply bubble with equalizer -->
+    <g>
+      <rect x="1082" y="104" width="86" height="40" rx="18" fill="#67e8f9"/>
+      <path d="M1086 134 L1074 150 L1100 140 Z" fill="#67e8f9"/>
+      <rect x="1100" y="119" width="6" height="10" rx="3" fill="#0b1020"><animate attributeName="height" values="10;22;12;18;10" dur="1s" repeatCount="indefinite"/><animate attributeName="y" values="119;113;118;115;119" dur="1s" repeatCount="indefinite"/></rect>
+      <rect x="1113" y="119" width="6" height="10" rx="3" fill="#0b1020"><animate attributeName="height" values="18;10;22;12;18" dur="1.2s" repeatCount="indefinite"/><animate attributeName="y" values="115;119;113;118;115" dur="1.2s" repeatCount="indefinite"/></rect>
+      <rect x="1126" y="119" width="6" height="10" rx="3" fill="#0b1020"><animate attributeName="height" values="12;22;10;20;12" dur="0.9s" repeatCount="indefinite"/><animate attributeName="y" values="118;113;119;114;118" dur="0.9s" repeatCount="indefinite"/></rect>
+      <rect x="1139" y="119" width="6" height="10" rx="3" fill="#0b1020"><animate attributeName="height" values="20;12;18;10;20" dur="1.1s" repeatCount="indefinite"/><animate attributeName="y" values="114;118;115;119;114" dur="1.1s" repeatCount="indefinite"/></rect>
+    </g>
   </g>
-  <g fill="#a5f3fc">
-    <circle cx="820" cy="40" r="5"/><circle cx="930" cy="95" r="7"/><circle cx="1040" cy="55" r="5"/>
-    <circle cx="1130" cy="120" r="6"/><circle cx="1040" cy="190" r="7"/><circle cx="930" cy="150" r="5"/><circle cx="820" cy="200" r="5"/>
-  </g>
-  <text x="60" y="108" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff">Nihat Furkan Çakmakcı</text>
-  <text x="62" y="152" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="#cffafe">AI Engineer  ·  LLM &amp; Agentic AI Systems</text>
-  <text x="62" y="188" font-family="Consolas, Menlo, monospace" font-size="17" fill="#67e8f9">tool calling  ·  RAG  ·  voice agents  ·  production</text>
 </svg>
