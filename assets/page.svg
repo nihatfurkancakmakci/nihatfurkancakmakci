@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-label="Page">
+<defs><clipPath id="c"><path d="M1 860 V11 Q1 1 11 1 H1189 Q1199 1 1199 11 V860 Z"/></clipPath></defs>
+<path d="M1 860 V11 Q1 1 11 1 H1189 Q1199 1 1199 11 V860 Z" fill="#f4f1ea"/>
+<g clip-path="url(#c)"><rect x="0" y="0" width="9" height="860" fill="#c2410c"/></g>
+<path d="M1 860 V11 Q1 1 11 1 H1189 Q1199 1 1199 11 V860" fill="none" stroke="#d9d3c5" stroke-width="2"/>
+<text x="56" y="66" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#14181f">About</text>
+<text x="56" y="108" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#2b323c">I build assistants that answer questions from a company&#x27;s real data, in writing or by voice. Right now I&#x27;m on</text>
+<text x="56" y="136" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#2b323c">a two-person team building one for hotel managers: they ask something like &quot;how&#x27;s my occupancy this month?&quot;</text>
+<text x="56" y="164" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#2b323c">and get the answer from live data.</text>
+<text x="56" y="198" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#2b323c">The model never touches the database directly. It can only call a fixed set of tools, and every hotel sees</text>
+<text x="56" y="226" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#2b323c">only its own data. That is the part I care about most, and the part I test the most.</text>
+<line x1="56" y1="256" x2="1144" y2="256" stroke="#d9d3c5" stroke-width="1.5"/>
+<text x="56" y="300" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#14181f">Projects</text>
+<text x="56" y="336" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#14181f">Hotel assistant (client project, private)</text>
+<text x="56" y="364" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#2b323c">Written and voice assistant for hotel managers. I built the voice side, the operations setup and the sign-in</text>
+<text x="56" y="392" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#2b323c">system, and I helped choose the AI provider after comparing cost and quality. It started as a prototype and</text>
+<text x="56" y="420" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#2b323c">now runs live.</text>
+<text x="56" y="448" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#14181f">Crypto forecasting system (personal project)</text>
+<text x="56" y="476" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#2b323c">Combines three kinds of models, including one that reads news sentiment, to forecast prices. A local language</text>
+<text x="56" y="504" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#2b323c">model explains the market in plain words, and a web dashboard shows everything.</text>
+<line x1="56" y1="534" x2="1144" y2="534" stroke="#d9d3c5" stroke-width="1.5"/>
+<text x="56" y="578" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#14181f">Tools</text>
+<text x="56" y="620" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#2b323c">Python, C# / .NET, PyTorch, PostgreSQL, Docker, Git.</text>
+<text x="56" y="654" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#2b323c">Claude API, Azure AI Foundry, ElevenLabs, LangChain, Hugging Face.</text>
+<line x1="56" y1="684" x2="1144" y2="684" stroke="#d9d3c5" stroke-width="1.5"/>
+<text x="56" y="728" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#14181f">Also</text>
+<text x="56" y="770" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#2b323c">I&#x27;m the president of the Engineering Thinking Community at my university: a 12-person board and about 500</text>
+<text x="56" y="798" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#2b323c">members, running coding competitions, robotics contests and technical trips. I&#x27;m also working through the</text>
+<text x="56" y="826" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#2b323c">Microsoft Learn path for Azure and ASP.NET Core.</text>
+</svg>

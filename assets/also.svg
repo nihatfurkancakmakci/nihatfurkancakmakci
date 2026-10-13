@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="226" viewBox="0 0 1200 226" role="img" aria-label="Also">
-<rect x="1" y="1" width="1198" height="224" rx="10" fill="#f4f1ea" stroke="#d9d3c5" stroke-width="2"/>
-<rect x="1" y="1" width="8" height="224" rx="4" fill="#c2410c"/>
-<text x="52" y="62" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#14181f">Also</text>
-<text x="52" y="108" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#2b323c">I&#x27;m the president of the Engineering Thinking Community at my university: a 12-person board and about</text>
-<text x="52" y="136" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#2b323c">500 members, running coding competitions, robotics contests and technical trips. I&#x27;m also working</text>
-<text x="52" y="164" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#2b323c">through the Microsoft Learn path for Azure and ASP.NET Core.</text>
-</svg>

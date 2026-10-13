@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="124" viewBox="0 0 600 124" role="img" aria-label="LinkedIn">
+<defs><clipPath id="c"><path d="M0 0 V123 H589 Q599 123 599 113 V0 Z"/></clipPath></defs>
+<path d="M0 0 V123 H589 Q599 123 599 113 V0 Z" fill="#f4f1ea"/>
+
+<path d="M0 123 H589 Q599 123 599 113 V0" fill="none" stroke="#d9d3c5" stroke-width="2"/>
+
+<rect x="16" y="66" width="560" height="40" rx="20" fill="#14181f"/>
+<text x="38" y="91.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#f4f1ea">LinkedIn   /in/nihatfurkancakmakci</text>
+</svg>
