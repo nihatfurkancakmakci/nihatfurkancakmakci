@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="294" viewBox="0 0 1200 294" role="img" aria-label="About">
+<rect x="1" y="1" width="1198" height="292" rx="10" fill="#f4f1ea" stroke="#d9d3c5" stroke-width="2"/>
+<rect x="1" y="1" width="8" height="292" rx="4" fill="#c2410c"/>
+<text x="52" y="62" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#14181f">About</text>
+<text x="52" y="108" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#2b323c">I build assistants that answer questions from a company&#x27;s real data, in writing or by voice. Right now</text>
+<text x="52" y="136" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#2b323c">I&#x27;m on a two-person team building one for hotel managers: they ask something like &quot;how&#x27;s my occupancy</text>
+<text x="52" y="164" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#2b323c">this month?&quot; and get the answer from live data.</text>
+<text x="52" y="204" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#2b323c">The model never touches the database directly. It can only call a fixed set of tools, and every hotel</text>
+<text x="52" y="232" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#2b323c">sees only its own data. That is the part I care about most, and the part I test the most.</text>
+</svg>
