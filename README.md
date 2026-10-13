@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:06b6d4&height=220&section=header&text=Nihat%20Furkan%20%C3%87akmakc%C4%B1&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=AI%20Engineer%20%C2%B7%20LLM%20%26%20Agentic%20AI%20Systems&descSize=18&descAlignY=58" alt="header" width="100%"/>
+<img src="assets/header.svg" alt="Nihat Furkan Çakmakcı, AI Engineer" width="100%"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=06B6D4&center=true&vCenter=true&width=720&lines=Building+LLM+agents+that+run+in+production;Claude+tool+calling+%C2%B7+RAG+%C2%B7+Voice+AI;Making+AI+answer+with+real+data%2C+not+guesses)](https://github.com/nihatfurkancakmakci)
 
@@ -19,7 +19,7 @@ I follow new models and tools closely, test them with quick PoCs, and keep what 
 
 ## 🚀 What I Work On
 
-| | |
+| Area | What I do |
 |---|---|
 | 🤖 **Agentic AI** | Claude tool calling over whitelisted, optimized functions instead of free-form Text-to-SQL, so hallucination and SQL injection risks are closed structurally |
 | 🎙️ **Voice AI** | Real-time voice assistant with ElevenLabs Agents: ASR/TTS, turn-taking, wake-word activation, signed URLs and HMAC-verified webhooks |
@@ -71,4 +71,4 @@ I'm open to AI engineering internships and roles where I can build and ship LLM 
 
 📧 [cakmakcinihatfurkan@gmail.com](mailto:cakmakcinihatfurkan@gmail.com) · 💼 [LinkedIn](https://linkedin.com/in/nihatfurkancakmakci)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:06b6d4&height=100&section=footer" alt="footer" width="100%"/>
+<img src="assets/footer.svg" alt="" width="100%"/>
